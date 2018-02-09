@@ -5,6 +5,241 @@
  * Site Styles
  *****************************************************************************/
 
- html {
-     color: green;
+html {
+  padding: 0;
+  background-image: url('../img/Green-Background-Texture-Iphone-Wallpapers.jpg');
+  background-size: cover;
+  background-repeat: repeat-y;
+  
+}
+
+h2 {
+ font-family: Gill Sans, sans-serif; 
+}
+
+
+.main-nav {
+  position: relative;
+    left: 20px;
+  right: 30px;
+  top: 170px;
+   
+  width: 1000px;
+  text-align: center;
+  
+}
+
+.main-nav li {
+  display: inline-block;
+  font-size: 40px;
+    font-size: 5em;
+  padding: 50px;
+
+}
+
+.subtitle {
+ color: purple; 
+  position: relative;
+    left: 300px;
+  right: 30px;
+  top: 370px;
+    border: 3px solid #73AD21;
+  width: 500px;
+  text-align: center;
+}
+
+ul li:watch {
+ position: relative;
+  left: 5px;
+}
+
+ul li:listen {
+ position: relative;
+  left: 15px;
+}
+
+
+body {
+  margin: 0;
+}
+
+header {
+   min-height: 400px;
+     background-image: url('../img/official_header.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
  }
+
+nav {
+  display: inline;
+}
+
+footer {
+   min-height: 400px;
+     background-image: url('../img/monkaa_title.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+video {
+display:block;
+margin:0 auto;
+}
+
+#social {
+  background: greenyellow;
+  position: absolute;
+  top: 50px;
+  right: 0;
+  width: 40px;
+  transition: 2s width;
+  shape-outside: circle;
+  background-size: contain;
+}
+#social:hover {
+  width: 150px;
+}
+
+#social li {
+  margin: 0;
+  padding: 0;
+  height: 60px;
+  width: 60px;
+  background-size: 40px;
+}
+#social ul {
+list-style-type: none;
+  padding: 0;
+  background-size: contain;
+}
+
+a.twitter {
+ background: url('Twitter.png') no-repeat;
+ display: inline-block;
+ height: 51px;
+ width: 92px;
+}
+
+a.facebook {
+ background: url('fb.png') no-repeat;
+ display: inline-block;
+ height: 51px;
+ width: 92px;
+}
+
+a.instagram {
+ background: url('insta.png') no-repeat;
+ display: inline-block;
+ height: 51px;
+ width: 92px;
+}
+
+#weybec-people ul {
+list-style-type: none;
+  padding: 0;
+  margin: 50px auto 0 auto;
+  position: center center;
+  
+}
+
+#weybec-people li {
+ margin: 50px auto 0 auto;
+   padding: 0;
+}
+
+#watch {
+  background: yellow;
+}
+
+#watch h2 {
+ text-align: center;
+  font-family: Gill Sans, sans-serif;
+ 
+}
+
+#watch p {
+  width: 620px;
+    margin: 50px auto 0 auto;
+    text-align: center;
+}
+
+#watch h3{
+  text-align: center;
+}
+
+#listen {
+  background: green;
+  text-align: center;
+}
+
+#about {
+  background: gray;
+  text-align: center;
+}
+
+#about p {
+  width: 620px;
+    margin: 50px auto 0 auto;
+    text-align: center;
+}
+
+
+
+#lead {
+ width: 220px;
+    margin: 50px auto 0 auto;
+    text-align: center;
+}
+
+[video] {
+  position: center center;
+}
+
+[audio] {
+  position: center center;
+}
+
+body{
+    font-family: 'Alegreya Sans';
+    background: #708292;
+}
+
+a.download-button{
+    text-decoration: none;
+    color: #fff;
+    background: #3AAB2D;
+    padding: 8px 10px;
+    border-radius: 13px;
+    display: block;
+    width: 220px;
+    margin: 50px auto 0 auto;
+    text-align: center;
+    z-index: 100;
+    transition: opacity .8s ease;
+}
+
+a.download.bottom{
+    width: 100px;
+    background: #b7d4ee;
+    opacity: 0;
+    margin-top: 0px;
+}
+
+a.download.bottom{
+    border-radius: 0 0 3px 3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
