@@ -191,6 +191,8 @@ list-style-type: none;
  width: 220px;
     margin: 50px auto 0 auto;
     text-align: center;
+  font-family: 'Alegra Sans';
+  font-size: 20px
 }
 
 [video] {
