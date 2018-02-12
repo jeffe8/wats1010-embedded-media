@@ -19,10 +19,10 @@ h2 {
 
 
 .main-nav {
-  position: relative;
-    left: 20px;
-  right: 30px;
-  top: 170px;
+  position: absolute;
+    left: 675px;
+  right: 700px;
+  top: 50px;
    
   width: 1000px;
   text-align: center;
@@ -31,7 +31,7 @@ h2 {
 
 .main-nav li {
   display: inline-block;
-  font-size: 40px;
+  
     font-size: 5em;
   padding: 50px;
 
@@ -40,8 +40,8 @@ h2 {
 .subtitle {
  color: purple; 
   position: relative;
-    left: 300px;
-  right: 30px;
+    left: 975px;
+  right: 800x;
   top: 370px;
     border: 3px solid #73AD21;
   width: 500px;
@@ -203,7 +203,7 @@ list-style-type: none;
   position: center center;
 }
 
-body{
+body {
     font-family: 'Alegreya Sans';
     background: #708292;
 }
@@ -233,6 +233,7 @@ a.download.bottom{
     border-radius: 0 0 3px 3px;
 }
 
+.
 
 
 
